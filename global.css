@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+:root {
+  --matte-white: rgb(253, 251, 249);
+  --matte-black: rgb(31, 31, 31);
+  --matte-lemon: rgb(254, 233, 1);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.lemon-font {
+    color: var(--matte-lemon);
+}
